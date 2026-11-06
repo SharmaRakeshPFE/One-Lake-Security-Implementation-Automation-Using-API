@@ -39,9 +39,10 @@ A customer-neutral reference repository for validating and deploying a Microsoft
 This is a sample implementation. Validate it in a development or test environment and review current Microsoft Fabric documentation before production use.
 
 
-Refrences:
+#Refrences:
 
-Microsoft Learn: Create or Update Data Access Roles https://learn.microsoft.com/en-us/rest/api/fabric/core/onelake-data-access-security/create-or-update-data-access-roles
+Microsoft Learn: Create or Update Data Access Roles 
+https://learn.microsoft.com/en-us/rest/api/fabric/core/onelake-data-access-security/create-or-update-data-access-roles
 Endpoint: PUT https://api.fabric.microsoft.com/v1/workspaces/{workspaceId}/items/{itemId}/dataAccessRoles
 For validation: PUT https://api.fabric.microsoft.com/v1/workspaces/{workspaceId}/items/{itemId}/dataAccessRoles?dryRun=true
 https://learn.microsoft.com/en-us/rest/api/fabric/core/onelake-data-access-security
