@@ -2,6 +2,41 @@ MIT License
 
 Copyright (c) 2026 XXXX
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+------------------------------------------------------------------------------
+ AUTHOR
+------------------------------------------------------------------------------
+
+Author:   Rakesh Sharma
+Role:     Solution Engineer
+
+
+------------------------------------------------------------------------------
+ LICENSE
+------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Rakesh Sharma
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------------------------------------------------------------------------------
+ DISCLAIMER
+------------------------------------------------------------------------------
+
+This script is a sample/reference implementation intended to demonstrate automation of Microsoft Fabric OneLake Data Access Security. The script is not an official Microsoft product or supported deployment tool.  Customers are responsible for validating the script in their own
+development or test environment before using it in production.
+
+Microsoft Fabric features, REST APIs, permissions, authentication requirements, and supported security configurations can change over time.
+
+Always refer to the current Microsoft Fabric documentation before using this sample in a production environment.
+
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
