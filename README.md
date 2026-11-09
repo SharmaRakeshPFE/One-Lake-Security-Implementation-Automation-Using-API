@@ -2,6 +2,8 @@
 
 A customer-neutral reference repository for validating and deploying a Microsoft Fabric OneLake data access role by using PowerShell, Azure CLI, and the Microsoft Fabric REST API.
 
+Disclaimer: The name “IDFC” is used in this document solely for illustrative and demonstration purposes. This solution does not use, access, process, or represent any actual data belonging to IDFC Bank. All scenarios, configurations, and examples are intended exclusively to demonstrate Microsoft Fabric Onelake security automation and do not imply any association with or endorsement by IDFC Bank.
+
 > **Anonymization note:** Customer names, tenant identifiers, workspace identifiers, item identifiers, security-group identifiers, environment names, local paths, and captured outputs have been replaced with `XXXX`.
 
 ## Repository contents
