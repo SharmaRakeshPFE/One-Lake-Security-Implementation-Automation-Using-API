@@ -1,0 +1,69 @@
+﻿{
+    "value":  [
+                  {
+                      "name":  "IDFCBranchManager",
+                      "kind":  "Policy",
+                      "decisionRules":  [
+                                            {
+                                                "effect":  "Permit",
+                                                "permission":  [
+                                                                   {
+                                                                       "attributeName":  "Path",
+                                                                       "attributeValueIncludedIn":  [
+                                                                                                        "/Tables/banking_gold/gold_branch_performance",
+                                                                                                        "/Tables/banking_gold/gold_customer_360",
+                                                                                                        "/Tables/banking_gold/gold_deposit_portfolio",
+                                                                                                        "/Tables/banking_gold/gold_loan_portfolio"
+                                                                                                    ]
+                                                                   },
+                                                                   {
+                                                                       "attributeName":  "Action",
+                                                                       "attributeValueIncludedIn":  [
+                                                                                                        "Read"
+                                                                                                    ]
+                                                                   }
+                                                               ],
+                                                "constraints":  {
+                                                                    "columns":  [
+                                                                                    {
+                                                                                        "tablePath":  "/Tables/banking_gold/gold_customer_360",
+                                                                                        "columnNames":  [
+                                                                                                            "customer_id",
+                                                                                                            "customer_display_name",
+                                                                                                            "customer_segment",
+                                                                                                            "risk_segment",
+                                                                                                            "city",
+                                                                                                            "state",
+                                                                                                            "relationship_start_date",
+                                                                                                            "kyc_status",
+                                                                                                            "active_flag",
+                                                                                                            "account_count",
+                                                                                                            "total_account_balance",
+                                                                                                            "total_available_balance",
+                                                                                                            "fixed_deposit_count",
+                                                                                                            "active_fd_principal",
+                                                                                                            "loan_count",
+                                                                                                            "total_loan_outstanding",
+                                                                                                            "total_relationship_value"
+                                                                                                        ],
+                                                                                        "columnEffect":  "Permit",
+                                                                                        "columnAction":  [
+                                                                                                             "Read"
+                                                                                                         ]
+                                                                                    }
+                                                                                ]
+                                                                }
+                                            }
+                                        ],
+                      "members":  {
+                                      "microsoftEntraMembers":  [
+                                                                    {
+                                                                        "objectId":  "816828dc-02cf-43be-afcf-9694c7462a5c",
+                                                                        "objectType":  "Group",
+                                                                        "tenantId":  "14549047-ba3b-4178-bd72-093445060a19"
+                                                                    }
+                                                                ]
+                                  }
+                  }
+              ]
+}
